@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Work Sans, Syne - Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Slick - CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AI - Chef - Mate</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="nav-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- logo -->
+                    <a href="#home" class="navbar-brand">
+                        <img src="images/Logo.svg" alt="Logo">
+                    </a>
+                    <!-- mobile humburger -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- navigation  -->
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#highlights" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#assistance" class="nav-link">Customer Support</a>
+                            </li>
+                        </ul>
+                        <!-- Right Side -->
+                        <div class="navbar-actions">
+                            <a href="#" class="login-link">Log In</a>
+
+                            <a href="#" class="start-btn">
+                                Start For Free
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="container d-none d-lg-block">
+                    <div class="row align-items-center">
+                        <div class="offset-2 col-1 ">
+                            <img src="images/Icon.svg" alt="bucket-icon">
+                        </div>
+                        <div class="col-6 text-center ">
+                            <h1>Elevate Your Mealtime with
+                                <br>
+                                AI-Powered Personalization
+                            </h1>
+                        </div>
+                        <div class="col-1">
+                            <img src="images/Icon (2).svg" alt="cherry-icon">
+                        </div>
+                    </div>
+                </div>
+                <!-- Desktop Image Grid -->
+                <div class="container d-none d-lg-block">
+                    <div class="row align-items-center">
+                        <div class="col  mb-3">
+                            <img src="images/Card (2).svg" alt="improved-eating-habits" class="w-100">
+                        </div>
+
+                        <div class="col food-img">
+                            <img src="images/Icon (1).svg" alt="carrot-icon" class="icon-img">
+                            <img src="images/Picture.svg" alt="bowl-image" class="w-100">
+                        </div>
+                        <div class="col-4" id="hero-interection">
+                            <p>Effortless Planning, Healthier Eating</p>
+                            <div>
+                                <a href="#demo">Try Our Demo</a>
+                                <a href="#start">Start For Free</a>
+                            </div>
+                            <img src="images/Card(1).svg" alt="happy-users-card" class="w-75">
+                        </div>
+                        <div class="col save-card-img">
+                            <img src="images/Icon (3).svg" alt="bread-icon" class="icon-img">
+                            <img src="images/Card.svg" alt="save-on-grocery" class="w-100">
+                        </div>
+
+                        <div class="col  mb-3">
+                            <img src="images/Picture (1).svg" alt="garden-food" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <!-- Tablet Layout -->
+                <div class="container d-none d-md-block d-lg-none">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="offset-1 col-1 ">
+                                <img src="images/Icon.svg" alt="bucket-icon">
+                            </div>
+                            <div class="col-8 text-center ">
+                                <h1>Elevate Your Mealtime with
+                                    <br>
+                                    AI-Powered Personalization
+                                </h1>
+                            </div>
+                            <div class="col-1">
+                                <img src="images/Icon (2).svg" alt="cherry-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container d-none d-md-block d-lg-none">
+                    <div class="row align-items-center">
+                        <div class="col habit-card-compact">
+                            <img src="images/Icon (1).svg" alt="carrot-icon" class="icon-img">
+                            <img src="images/Card (2).svg" alt="improved-eating-habits" class="w-100">
+                        </div>
+                        <div class="col-6 text-center" id="hero-interection">
+                            <p>Effortless Planning, Healthier Eating</p>
+                            <div>
+                                <a href="#demo">Try Our Demo</a>
+                                <a href="#start">Start For Free</a>
+                            </div>
+                            <img src="images/Card(1).svg" alt="happy-users-card" class="w-75">
+                        </div>
+                        <div class="col save-card-compact">
+                            <img src="images/Icon (3).svg" alt="bread-icon" class="icon-img">
+                            <img src="images/Card.svg" alt="save-on-grocery" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Layout -->
+                <div class="container d-block d-md-none">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col text-center">
+                                <h1>Elevate Your Mealtime with
+                                    <br>
+                                    AI-Powered Personalization
+                                </h1>
+                                <p>Effortless Planning, Healthier Eating</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-center icon-compact">
+                        <img src="images/Icon (1).svg" alt="carrot-icon">
+                        <img src="images/Icon (3).svg" alt="bread-icon">
+                        <img src="images/Icon.svg" alt="bucket-icon">
+                        <img src="images/Icon (2).svg" alt="cherry-icon">
+                    </div>
+                    <div class="col text-center" id="hero-interection">
+                        <div>
+                            <a href="#demo">Try Our Demo</a>
+                            <a href="#start">Start For Free</a>
+                        </div>
+                        <img src="images/Card(1).svg" alt="happy-users-card" class="w-75">
+                    </div>
+                </div>
+            </section>
+            <section id="demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Demo /</h2>
+                            <p>See how it works: your personalized meal planning journey</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container demo-container">
+                    <div class="row">
+                        <div class="col demo-video">
+                            <img src="images/yakov-leonov-0wWYos3ZGqU-unsplash 1.svg" alt="demo-video-img">
+                            <h3>Every meal is a chance to nourish your body, inspire your mind, and feed your soul.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <div class="container">
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>How it works /</h2>
+                            <p>Step into the world of hassle-free meal planning with our easy 3-step process</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5">
+                            <div class="how-it-works-info">
+                                <span class="step-number">01</span>
+                                <h3>Personalize Your Profile</h3>
+                                <p>Begin by creating your profile. Tell us about your dietary preferences, nutritional
+                                    goals, and budget. Our AI technology tailors every meal plan to fityour unique
+                                    needs.</p>
+                                <div class="slider-controls">
+                                    <button type="button" id="howWorksPrev"naria-label="Previous step">
+                                        <i class="fa-solid fa-arrow-left-long"></i>
+                                    </button>
+                                    <button type="button" id="howWorksNext" aria-label="Next step">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </button>
+                                </div>
+                                <div class="slider-counter">
+                                    <span id="currentStep">01</span>/<span id="totalSteps">06</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="how-works-slider">
+                                <div class="slider-stage" id="howWorksSlider">
+                                    <!-- Images are inserted by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="benefits">
+                <div class="container">
+                    <div class="row">
+                        <div class="col benefits-content">
+                            <h2>Benefits /</h2>
+                            <p>Get meal plans tailored to your unique dietary needs, preferences, and goals, ensuring a
+                                balanced and enjoyable diet</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <!-- Personalized Nutrition -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Personalized<br>Nutrition</h3>
+                                <p>
+                                    Get meal plans tailored to your unique dietary needs,
+                                    preferences, and goals, ensuring a balanced and enjoyable diet.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- Grocery img -->
+                        <div class="col-lg-3 col-md-6">
+                            <img src="images/Picture (4).svg" alt="shopping bag">
+                        </div>
+                        <!-- Time Saving -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Time-Saving<br>Convenience</h3>
+                                <p>
+                                    Say goodbye to meal planning stress. Our AI-driven
+                                    platform simplifies your weekly meal preparation,
+                                    saving you valuable time.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- Healthier Eating -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Healthier Eating<br>Habits</h3>
+                                <p>
+                                    Easily adopt a healthier lifestyle with nutrient-rich
+                                    meal plans and educational content on nutrition and wellness.
+                                </p>
+                            </article>
+                        </div>
+
+                    </div>
+                    <div class="row align-items-center">
+                        <!-- Cost Effective -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Cost-Effective<br>Shopping</h3>
+                                <p>
+                                    Reduce food waste and save money with efficient grocery
+                                    shopping lists that align perfectly with your meal plans.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- Grocery Delivery -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Seamless<br>Grocery Delivery</h3>
+                                <p>
+                                    Enjoy the convenience of having all your meal ingredients
+                                    delivered right to your doorstep through our local grocery
+                                    store partnerships.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- Community -->
+                        <div class="col-lg-3 col-md-6">
+                            <article>
+                                <h3>Community<br>Support</h3>
+                                <p>
+                                    Join a community of like-minded individuals, share
+                                    experiences, recipes, and tips, and get motivated on your
+                                    journey to healthier eating.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- vegetables  image-->
+                        <div class="col-lg-3 col-md-6">
+                            <img src="images/Picture (3).svg" alt="vegetables">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="recipes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Recipes /</h2>
+                            <p>Recipes crafted by AI, personalized to perfectly align
+                                with your unique dietary needs and flavor preferences</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <!-- Recipe 1 -->
+                            <article>
+                                <div>
+                                    <h3>Savory Quinoa and Roasted<br>Vegetable Bowl</h3>
+                                    <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <img src="images/Picture (5).svg" alt="">
+                            </article>
+                            <!-- Recipe 2 -->
+                            <article>
+                                <img src="images/2.svg" alt="">
+                                <div>
+                                    <h3>Herb-Infused Grilled<br>Chicken with Seasonal<br>Greens</h3>
+                                    <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </article>
+                            <!-- Recipe 3 -->
+                            <article>
+                                <div>
+                                    <h3>Mediterranean Lentil and<br>Kale Salad</h3>
+                                    <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <img src="images/3.svg" alt="">
+                            </article>
+                        </div>
+                        <!-- Large recipe image -->
+                        <div class="col-md-6 recipe-img-container order-1 order-md-2">
+                            <div>
+                                <img src="images/victoria-shes-Qa29U4Crvn4-unsplash 1.svg"
+                                    alt="" class="Recipe-large-img">
+                                <div class="recipe-explore-btn">
+                                    <span>Explore more<br>recipes</span>
+                                    <a href="#" aria-label="Explore more recipes">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="testimonials">
+                <div class="container">
+                    <!-- Heading -->
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Testimonials /</h2>
+                            <p>Real stories from satisfied users: see how our platform changes lives</p>
+                        </div>
+                    </div>
+                    <!-- Slider -->
+                    <div class="testimonial-slider-wrapper">
+                        <button class="testimonial-prev">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <div class="testimonial-slider">
+                            <!-- Card 1 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>Since using AIChefMate, I've rediscovered my love for cooking! The meal plans
+                                        are easy and delicious. It's been a game-changer for my busy lifestyle.</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/brooke-cagle-NoRsyXmHGpI-unsplash.svg" alt="Emily-R">
+                                        <span>Emily R.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>I never knew healthy eating could be this simple and satisfying. Thanks to
+                                        AIChefMate, my family enjoys diverse, nutritious meals every day.</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/nicolas-jossi-D21YZt_0Mqk-unsplash.svg" alt="Emily-R">
+                                        <span>Mark T.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>The grocery savings have been incredible! Plus, every meal feels tailored just
+                                        for me. I'm eating better and feeling great. A big thumbs up!</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/omar-lopez-Gx5-zf_HE9w-unsplash.svg" alt="Emily-R">
+                                        <span>Sarah J.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>Switching to AIChefMate has been a revelation for my meal prep routine. The
+                                        AI-generated plans are spot-on with my tastes, making
+                                        healthy eating effortless and enjoyable.</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/edward-cisneros-_H6wpor9mjs-unsplash.svg" alt="Emily-R">
+                                        <span>Rebecca S.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>Since using AIChefMate, I've rediscovered my love for cooking! The meal plans
+                                        are easy and delicious. It's been a game-changer for my busy lifestyle.</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/brooke-cagle-NoRsyXmHGpI-unsplash.svg" alt="Emily-R">
+                                        <span>Emily R.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <p>I never knew healthy eating could be this simple and satisfying. Thanks to
+                                        AIChefMate, my family enjoys diverse, nutritious meals every day.</p>
+                                    <span class="quote-mark">”</span>
+                                    <div class="testimonial-user">
+                                        <img src="images/nicolas-jossi-D21YZt_0Mqk-unsplash.svg" alt="Emily-R">
+                                        <span>Mark T.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="testimonial-next">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+                <div class="container">
+                    <!-- Heading -->
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Pricing /</h2>
+                            <p>Find your perfect plan: tailored pricing for every need</p>
+                        </div>
+                    </div>
+                    <!-- Pricing cards -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <!-- Free Plan -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Free Plan</h3>
+                                        <h3><strong>$0</strong></h3>
+                                        <small>per month</small>
+                                        <ul>
+                                            <li>Basic AI meal planning</li>
+                                            <li>Limited recipe access</li>
+                                            <li>Manual grocery list creation</li>
+                                        </ul>
+                                        <hr>
+                                        <p><strong>Best For:</strong> Those who want to explore the platform's basic
+                                            functionalities.</p>
+                                        <a href="#" class="btn">Get Started For Free</a>
+                                    </div>
+                                </div>
+
+                                <!-- Standard Plan -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Standard Plan</h3>
+                                        <h3><strong>$9.99</strong></h3>
+                                        <small>per month</small>
+                                        <ul>
+                                            <li>Comprehensive AI meal planning</li>
+                                            <li>Full recipe library access</li>
+                                            <li>Automated grocery lists</li>
+                                            <li>Grocery delivery integration</li>
+                                        </ul>
+                                        <hr>
+                                        <p><strong>Best For:</strong> Individuals or families looking for full
+                                            mealplanning support and convenience.</p>
+                                        <a href="#" class="btn">Subscribe Now</a>
+                                    </div>
+                                </div>
+
+                                <!-- Premium Plan -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Premium Plan</h3>
+                                        <h3><strong>$19.99</strong></h3>
+                                        <small>per month</small>
+                                        <ul>
+                                            <li>All Standard features</li>
+                                            <li>Exclusive gourmet recipes</li>
+                                            <li>Nutritional consultations</li>
+                                            <li>Advanced customization options</li>
+                                        </ul>
+                                        <hr>
+                                        <p><strong>Best For:</strong> Users seeking a premium culinary experience with
+                                            added personalization and expert guidance.</p>
+                                        <a href="#" class="btn">Go Premium</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="highlights">
+                <div class="container">
+                    <!-- Heading -->
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Healthy Insights /</h2>
+                            <p>Latest News, Expert Blogs, and Nutritional Learning</p>
+                        </div>
+                    </div>
+
+                    <!-- Articles -->
+                    <div class="row">
+                        <!-- Article 1 -->
+                        <div class="col-md-6 col-lg-4">
+                            <article class="card">
+                                <img src="images/jodie-morgan-v25z8P-CPB4-unsplash 1.svg" alt="">
+                                <div class="card-body">
+                                    <h3>Mastering Meal Prep: Time_Saving Tips for BusyWeekdays</h3>
+                                    <a href="#" class="btn">Read Article<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Article 2 -->
+                        <div class="col-md-6 col-lg-4">
+                            <article class="card">
+                                <img src="images/eiliv-aceron-ZuIDLSz3XLg-unsplash 1.svg" alt="">
+                                <div class="card-body">
+                                    <h3>The Power of Plant-Based: Benefits Beyond the Plate</h3>
+                                    <a href="#" class="btn">Read Article<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Article 3 -->
+                        <div class="col-md-6 col-lg-4">
+                            <article class="card">
+                                <img src="images/gabriella-clare-marino-Wdyaid9endA-unsplash 2.svg" alt="">
+                                <div class="card-body">
+                                    <h3>Balancing Nutrients: A Guide to a Well-Rounded Diet</h3>
+                                    <a href="#" class="btn">Read Article<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="faq">
+                <div class="container">
+                    <!-- Heading -->
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Frequently Asked Questions /</h2>
+                            <p>Meal planning made easy: your questions, answered</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- left side -->
+                        <div class="col-lg-6">
+                            <div class="faq-column">
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">How does the AI create personalized meal
+                                            plans?</span>
+                                    </button>
+                                    <div id="faq1" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Our AI system analyzes your dietary preferences, health goals, and budget
+                                                to create meal plans that are unique to you. It continually learns from
+                                                your feedback and choices to improve its suggestions over time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">How does the grocery delivery service
+                                            work?</span>
+                                    </button>
+                                    <div id="faq2" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Absolutely! Our platform is designed to accommodate a range of dietary
+                                                needs, including vegetarian, vegan, gluten-free, and keto options. Just
+                                                specify your requirements in your profile, and your meal plans will be
+                                                adjusted accordingly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">Are there options for budget-conscious
+                                            users?</span>
+                                    </button>
+                                    <div id="faq3" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Our AI system analyzes your dietary preferences, health goals, and budget
+                                                to create meal plans that are unique to you. It continually learns from
+                                                your feedback and choices to improve its suggestions over time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">How can I access nutrition education and healthy
+                                            eating tips?</span>
+                                    </button>
+                                    <div id="faq4" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Absolutely! Our platform is designed to accommodate a range of dietary
+                                                needs, including vegetarian, vegan, gluten-free, and keto options. Just
+                                                specify your requirements in your profile, and your meal plans will be
+                                                adjusted accordingly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- right side -->
+                        <div class="col-lg-6">
+                            <div class="faq-column">
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">Can I integrate special dietary requirements
+                                            into my meal plan?</span>
+                                    </button>
+                                    <div id="faq5" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Absolutely! Our platform is designed to accommodate a range of dietary
+                                                needs, including vegetarian, vegan, gluten-free, and keto options. Just
+                                                specify your requirements in your profile, and your meal plans will be
+                                                adjusted accordingly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">How does the platform accommodate allergies and
+                                            food sensitivities?</span>
+                                    </button>
+                                    <div id="faq6" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Our AI system analyzes your dietary preferences, health goals, and budget
+                                                to create meal plans that are unique to you. It continually learns from
+                                                your feedback and choices to improve its suggestions over time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">Can I adjust my meal plans after they've been
+                                            created?</span>
+                                    </button>
+                                    <div id="faq7" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Absolutely! Our platform is designed to accommodate a range of dietary
+                                                needs, including vegetarian, vegan, gluten-free, and keto options. Just
+                                                specify your requirements in your profile, and your meal plans will be
+                                                adjusted accordingly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 1 -->
+                                <div class="faq-item">
+                                    <button class="faq-header collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                        <span class="faq-icon"><i class="fa-solid fa-arrow-up"></i></span>
+                                        <span class="faq-header-txt">What makes your AI-driven meal planning
+                                            different from other meal planning services?</span>
+                                    </button>
+                                    <div id="faq8" class="collapse">
+                                        <div class="faq-body">
+                                            <p>Our AI system analyzes your dietary preferences, health goals, and budget
+                                                to create meal plans that are unique to you. It continually learns from
+                                                your feedback and choices to improve its suggestions over time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="assistance">
+                <div class="container">
+                    <div class="row">
+                        <div class="col demo-content">
+                            <h2>Need Assistance? /</h2>
+                            <p>We’re here to help!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container demo-container">
+                    <div class="row">
+                        <div class="col demo-video">
+                            <img src="images/Picture (2).svg" alt="">
+                            <div class="assistance-content">
+                                <h4>Have questions or need help with AIChefMate? Our dedicated support team is ready to
+                                    assist you. Get the answers and assistance you need to make the most of your meal
+                                    planning experience.
+                                </h4>
+                                <a href="#start">Get Support</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer =========================================== -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div>
+                            <a href="#"><img src="images/Logo (1).svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <nav aria-label="Footer navigation">
+                            <ul>
+                                <li><a href="#">Recipes</a></li>
+                                <li><a href="#">Customer Support</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Your Profile</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-5 col-md-4">
+                        <p>Join us on our journey to make meal planning simple and joyful. Connect with us on social
+                            media, explore our FAQs for quick answers, or drop us a line anytime.</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <div>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>&copy; 2064 AIChefMate. All rights reserved. <a href="#">Privacy Policy</a> | <a
+                                href="#">Terms of Use</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- slick-carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="script.js"></script>
+    <!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
